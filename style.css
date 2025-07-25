@@ -1,0 +1,98 @@
+/* All-common CSS style*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Noto-serif{
+    font-family: "Noto Serif", serif;
+}
+.Inter{
+     font-family: "Inter", sans-serif;
+}
+.page-container{
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+
+body{
+    background-color: #F5F8FF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Nav Portion */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items{
+    display: flex;
+    
+}
+nav a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: #252432;
+    font-weight: 700;
+}
+.nav-span{
+    color: #8987A1;
+    font-weight: 400;
+}
+.nav-cart{
+    color: #000000;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+/* header banner*/
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    align-items: end;
+}
+
+.banner-flower{
+   display: block;
+}
+
+.head-title1{
+    color: black;
+    font-size: 4.06rem;
+    font-weight: 700;
+    max-width: 570px;
+}
+
+.color-head-title1{
+    color: #E95A08;
+}
+
+.paragraph{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.37rem;
+    text-align: justify;
+    text-justify: inter-word;
+    max-width: 570px;
+    margin-top: 12px;
+}
