@@ -96,3 +96,87 @@ nav a{
     max-width: 570px;
     margin-top: 12px;
 }
+
+
+
+/* our plants portion*/
+
+.plants-container{
+    text-align: center;
+    justify-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.paragraph-text{
+    max-width: 70%;
+    text-align: center;
+}
+.common-title{
+    color: black;
+    font-weight: 700;
+    font-size: 3.125rem;
+}
+
+.common-title span{
+    color: #E95A08;
+}
+
+
+/* flower jar card portion */
+
+.jar-container{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    justify-items: center;
+    width: 100%;
+}
+
+.card{
+    max-width: 100%;
+    margin: 0;
+    box-shadow: 0px 3px 21px -7px rgba(4,1,1,0.86);
+    -webkit-box-shadow: 0px 3px 21px -7px rgba(4,1,1,0.86);
+    -moz-box-shadow: 0px 3px 21px -7px rgba(4,1,1,0.86);
+}
+
+.image-contain{
+    width: 100%;
+}
+
+.flower-name{
+   justify-items: center;
+}
+
+.flower-name h3{
+    color: black;
+    font-weight: 500;
+    font-size: 1.37rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.price{
+    font-size: 1.73rem;
+    color: #111111;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.card-btn{
+    width: 100%;
+    padding: 18px 50px;
+    color: white;
+    font-weight: 600;
+    background-color: #E95A08;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.card-btn:hover{
+    background: #833AB4;
+    background: linear-gradient(229deg, rgba(131, 58, 180, 1) 0%, rgba(145, 55, 163, 1) 6%, rgba(253, 29, 29, 1) 45%, rgba(230, 142, 0, 1) 95%);
+
+}
